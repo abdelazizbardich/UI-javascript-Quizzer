@@ -10,7 +10,13 @@ addanswer.addEventListener('click',()=>{
         alert("Error!");
         return false;
     }
-    reqBox.innerText = answerData;
+    
+
+    alert("Everything is ok!");
+    let el = document.createElement('input');
+    el.value = answerData;
+    reqBox.append(el);
+
     document.querySelector("#signed").value="1";
     document.querySelector("#signed").value="1";
     reqBox.style.display = "block";
