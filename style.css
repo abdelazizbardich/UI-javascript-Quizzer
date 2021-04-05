@@ -1,0 +1,9 @@
+div#req-box {
+    padding: 16px;
+    margin: 8px 0px;
+    background-color: white;
+    /* max-width: 100%; */
+    border: 2px solid orange;
+    color: black;
+    display: none;
+}
